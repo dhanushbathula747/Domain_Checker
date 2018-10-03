@@ -24,7 +24,7 @@ app.get('/home',function(req,res)
     array=[];
     res.render('domainchecker',{name : array});
 });
-    var name,a,b;
+    var name,a,b;//variable names
 
 //action when check button is selected.
 app.post('/check', function(req, res)
